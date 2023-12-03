@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "adventofcode23"
+version = "0.1.0"
+description = ""
+authors = ["ElliotRedhead <elliot.redhead@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+regex = "^2023.10.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.3"
+isort = "^5.12.0"
+black = "^23.11.0"
+flake8 = "^6.1.0"
+mypy = "^1.7.1"
+pdbpp = "^0.10.3"
+pytest-cov = "^4.1.0"
+coverage = "^7.3.2"
+types-regex = "^2023.10.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
